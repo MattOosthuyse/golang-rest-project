@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"cmd/rest-server/internal/server"
+	"fmt"
+)
 
 func main() {
-	fmt.Println("Hello")
+	fmt.Println("Hello from main")
+	server.RestServer()
 }
